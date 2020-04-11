@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'San Francisco Pro Display Thin';
+    src: url('SFProDisplay-Thin.eot');
+    src: url('SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+    url('SFProDisplay-Thin.woff') format('woff'),
+    url('SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Display Light';
+    src: url('SFProDisplay-Light.eot');
+    src: url('SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('SFProDisplay-Light.woff') format('woff'),
+    url('SFProDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'San Francisco Pro Display Regular';
+        src: url('SFProDisplay-Regular.eot');
+        src: url('SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Regular.woff') format('woff'),
+        url('SFProDisplay-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }

@@ -1,0 +1,1248 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 44px;
+}
+
+.bgcolor {
+  background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
+.search-input {
+  background: #ffffff;
+  background-image: url(../img/home.svg);
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  height: 40px;
+  font-family: 'San Francisco Pro Display Thin';
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 35px;
+}
+
+.input1 {
+  flex: 0.354;
+}
+
+.input {
+  flex: 0.8;
+}
+
+.user {
+  margin-bottom: 2px;
+  margin-right: 4px;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+:focus::-moz-placeholder {
+  color: transparent
+}
+
+:focus:-moz-placeholder {
+  color: transparent
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent
+}
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: grey;
+  font-family: 'San Francisco Pro Display Light';
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: grey;
+  color: transparent;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: grey;
+  opacity: 1;
+  color: transparent;
+}
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: grey;
+  opacity: 1;
+  color: transparent;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-family: 'San Francisco Pro Display Regular';
+  font-size: 16px;
+  line-height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.sign2 {
+  border: 1px solid #1890FF;
+  font-family: 'San Francisco Pro Display Regular';
+  background: #1890FF;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.container-header-content {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.container-footer {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.button-icon {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.button-icon2 {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.button-text {
+  font-family: 'San Francisco Pro Display Light';
+  padding-top: 0.5px;
+  vertical-align: middle;
+}
+
+.first-block {
+  margin-top: 50px;
+  background: #fff1b8;
+  box-shadow: 0px 7px 12px #DCDCDC;
+  background: #fff1b8 url(../img/pizzapromo.png) no-repeat top -10px right -200px / 900px;
+}
+
+.a-card {
+  text-decoration: none;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 34px;
+  padding-left: 70px;
+  padding-bottom: 68px;
+}
+
+.first-h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 46px;
+  color: #302C34;
+}
+
+.text-first-block {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #302C34;
+  width: 560px;
+}
+
+.second-span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.header-second-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.input-search {
+  width: 306px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  padding-left: 32px;
+  font-family: 'San Francisco Pro Display Regular';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+:placeholder-shown:hover {
+  border: 1px solid silver;
+}
+
+a:hover {
+  color: #080707;
+}
+
+.all-blocks {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.pizza-plus {
+  text-decoration: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px #C0C0C0;
+  border-radius: 7px;
+  overflow: hidden;
+  flex-basis: 31.5%;
+}
+
+.pizza-plus:hover {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.52);
+  transform: scale(1.01);
+}
+
+.card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  padding-left: 21px;
+  padding-right: 24px;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: black;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+
+}
+
+.card-tag {
+  font-family: SF Pro Display;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #262626;
+  border-radius: 2px;
+  padding: 1px 8px;
+}
+
+.rating {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFC107;
+  margin-right: 26px;
+}
+
+.zvezda {
+  padding-right: 5px;
+}
+
+.price {
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 32px;
+  color: #8C8C8C;
+}
+
+.category {
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 32px;
+  color: #8C8C8C;
+}
+
+.krug {
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.tanuki {
+  flex-basis: 31.5%;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px #C0C0C0;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.food-band {
+  flex-basis: 31.5%;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px #C0C0C0;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.pizza-ha {
+  flex-basis: 31.5%;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px #C0C0C0;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.tochka {
+  flex-basis: 31.5%;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px #C0C0C0;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.pizza-burger {
+  flex-basis: 31.5%;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px #C0C0C0;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.bgcolor {
+  padding-bottom: 90px;
+}
+
+
+footer {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.footer-nav {
+  margin-right: auto;
+}
+
+.nav-item {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.nav-item1 {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.footer-class {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  margin-right: 50px;
+}
+
+.social-image {
+  display: flex;
+  align-items: center;
+}
+
+.social-tabs {
+  margin-right: 24px;
+}
+
+.social-tabsvk {
+  margin-bottom: 3px;
+}
+
+@media (max-width: 1366px) {
+
+  .bgcolor {
+    padding-bottom: 60px;
+  }
+
+  .krug {
+    margin-bottom: 3px;
+  }
+
+  .container-footer {
+    max-width: 1000px;
+  }
+
+  .container-header-content {
+    max-width: 1000px;
+  }
+
+  .all-blocks {
+    justify-content: space-between;
+  }
+
+  .first-block {
+    background-size: 970px;
+    background-position: top right -300px;
+  }
+
+  .text-first-block {
+    font-size: 18px;
+  }
+
+  .first-h1 {
+    font-size: 35px;
+  }
+
+  .price,
+  .category {
+    font-size: 14px;
+  }
+
+  .price {
+    margin-left: auto;
+  }
+
+  .rating {
+    margin-right: 19px;
+  }
+
+  .card-image {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .card-info {
+    justify-content: space-between;
+  }
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 54%;
+    display: block;
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 1095px) {
+
+  .first-block {
+    background-size: 850px;
+    background-position: top right -300px;
+  }
+
+  .container-footer {
+    max-width: 900px;
+  }
+
+  .container-header-content {
+    max-width: 900px;
+  }
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 53%;
+    padding-left: 6%;
+    display: block;
+  }
+
+  .input1 {
+    flex: 0.5;
+  }
+}
+
+@media (max-width: 980px) {
+
+  .input1 {
+    flex: 0.6;
+  }
+
+  .container-footer {
+    max-width: 800px;
+  }
+
+  .container-header-content {
+    max-width: 800px;
+  }
+
+  .first-block {
+    background-size: 750px;
+    background-position: top right -300px;
+  }
+
+  .text-first-block {
+    font-size: 17px;
+  }
+
+  .first-h1 {
+    font-size: 33px;
+  }
+
+  .all-blocks {
+    flex-basis: 49%;
+  }
+
+  .tanuki {
+    flex-basis: 49%;
+  }
+
+  .food-band {
+    margin-top: 30px;
+    flex-basis: 49%;
+  }
+
+  .pizza-ha {
+    flex-basis: 49%;
+  }
+
+  .tochka {
+    flex-basis: 49%;
+  }
+
+  .pizza-burger {
+    flex-basis: 49%;
+  }
+
+  .pizza-plus {
+    flex-basis: 49%;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+  }
+
+  .nav-item {
+    font-size: 15px;
+  }
+
+  .nav-item1 {
+    font-size: 15px;
+  }
+
+  .logo-footer {
+    margin-right: 0px;
+  }
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 45%;
+    display: block;
+  }
+}
+
+@media (max-width: 860px) {
+
+  .container-footer {
+    max-width: 700px;
+  }
+
+  .container-header-content {
+    max-width: 700px;
+  }
+
+  .first-block {
+    background-size: 650px;
+    background-position: top right -300px;
+  }
+
+  .text-first-block {
+    font-size: 17px;
+  }
+
+  .first-h1 {
+    line-height: 39px;
+    font-size: 30px;
+  }
+
+  .krug {
+    margin-bottom: 1px;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .nav-item1 {
+    font-size: 14px;
+  }
+
+  .logo-footer {
+    padding-right: 0;
+  }
+
+  .bgcolor {
+    padding-bottom: 60px;
+  }
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 39%;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-footer {
+    max-width: 670px;
+  }
+
+  .container-header-content {
+    max-width: 700px;
+  }
+}
+
+
+
+@media (max-width: 750px) {
+
+  .input1 {
+    flex: 0.65;
+  }
+
+  footer {
+    padding-bottom: 10px;
+  }
+
+  .container-footer {
+    max-width: 590px;
+  }
+
+  .container-header-content {
+    max-width: 590px;
+  }
+
+  .first-block {
+    background-size: 560px;
+    background-position: top 20px right -280px;
+  }
+
+  .text-block {
+    padding-left: 7%;
+  }
+
+  .text-first-block {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .first-h1 {
+    line-height: 35px;
+    font-size: 28px;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+  }
+
+  .nav-item {
+    font-size: 12px;
+  }
+
+  .nav-item1 {
+    font-size: 12px;
+  }
+
+  .logo-footer {
+    padding-right: 0;
+  }
+
+  .social-tabs {
+    width: 21px;
+    height: 21px;
+    margin-right: 18px;
+  }
+
+  .social-tabsvk {
+    width: 21px;
+    height: 21px;
+  }
+
+  .logo-footer {
+    width: 90px;
+    height: 90px;
+  }
+
+  footer {
+    padding-top: 0px;
+  }
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 39%;
+    display: block;
+  }
+}
+
+@media (max-width: 599px) {
+
+  .input1 {
+    flex: 1;
+  }
+
+  .header-second-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .second-span {
+    margin-right: 100px;
+  }
+
+  .rating {
+    font-size: 25px;
+  }
+
+  .zvezda {
+    width: 27px;
+  }
+
+  footer {
+    padding-bottom: 55px;
+  }
+
+  .container-footer {
+    max-width: 490px;
+  }
+
+  .container-header-content {
+    max-width: 88%;
+  }
+
+  .first-block {
+    background-size: 560px;
+    background-position: top 20px right -280px;
+  }
+
+  .input-search {
+    background: #ffffff;
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    height: 40px;
+    font-family: 'San Francisco Pro Display Thin';
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 35px;
+  }
+
+  .text-first-block {
+
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .first-h1 {
+    line-height: 35px;
+    font-size: 28px;
+  }
+
+  .logo-footer {
+    margin-right: 30px;
+  }
+
+  .footer-class {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    justify-content: center;
+  }
+
+  .card-title {
+    font-size: 19.5px;
+  }
+
+  .price,
+  .category {
+    font-size: 14px;
+  }
+
+  .social-tabs {
+    vertical-align: middle;
+  }
+
+  .social-tabsvk {
+    vertical-align: middle;
+  }
+
+  .tanuki {
+    flex-basis: 100%;
+    margin-top: 30px;
+  }
+
+  .food-band {
+    margin-top: 30px;
+    flex-basis: 100%;
+  }
+
+  .pizza-ha {
+    flex-basis: 100%;
+  }
+
+  .tochka {
+    flex-basis: 100%;
+  }
+
+  .pizza-burger {
+    flex-basis: 100%;
+  }
+
+  .pizza-plus {
+    flex-basis: 100%;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .input {
+    margin-top: 15px;
+    order: 5;
+    flex: 1;
+  }
+
+  .text-block {
+    padding-left: 3;
+  }
+
+  .first-block {
+    background-size: 400px;
+    background-position: top -100px right -190px;
+  }
+
+  .first-h1 {
+    line-height: 35px;
+    font-size: 22px;
+  }
+
+  .second-span {
+    font-size: 27px;
+  }
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 30%;
+    display: block;
+  }
+
+}
+
+@media (max-width:570px) {
+
+  .text-block {
+    padding-top: 4%;
+    padding-bottom: 9%;
+    padding-right: 25%;
+  }
+
+  .first-block {
+    background-size: 390px;
+    background-position: top -110px right -190px;
+  }
+
+  .text-block {
+    display: block;
+  }
+}
+
+@media (max-width:547px) {
+
+  .second-search {
+    width: 100%;
+  }
+
+  .container-footer {
+    max-width: 490px;
+  }
+
+  .container-header-content {
+    max-width: 80%;
+  }
+
+  .header-second-block {
+    flex-wrap: wrap;
+  }
+
+  .second-span {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .first-block {
+    background-size: 402px;
+    background-position: top -125px right -190px;
+  }
+
+  .first-h1 {
+    margin-top: 30px;
+  }
+
+  .text-block {
+    display: block;
+  }
+
+  .first-block {
+    background-size: 370px;
+    background-position: top -125px right -190px;
+  }
+
+  .text-block {
+    padding-top: 1px;
+    padding-bottom: 10%;
+    padding-right: 15%;
+  }
+}
+
+@media (max-width: 490px) {
+
+  .container-footer {
+    max-width: 75%;
+  }
+
+  .logo-footer {
+    width: 35%;
+    padding: 0;
+    margin: 0px;
+  }
+
+  .container-header-content {
+    max-width: 80%;
+  }
+
+  .first-block {
+    background-size: 370px;
+    background-position: top -125px right -190px;
+  }
+
+  .first-h1 {
+    line-height: 150%;
+    font-size: 143%;
+    margin-top: 30px;
+  }
+
+  .text-first-block {
+
+    font-size: 90%;
+  }
+
+  .footer-nav {
+    margin-bottom: 20px;
+  }
+
+
+  .text-block {
+    padding-top: 1px;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 482px) {
+  .first-block {
+    background-size: 350px;
+    background-position: top -125px right -190px;
+  }
+
+  .text-block {
+    padding-top: 1px;
+    padding-bottom: 10%;
+    padding-right: 9%;
+  }
+}
+
+
+@media (max-width: 460px) {
+  .container-footer {
+    max-width: 75%;
+  }
+
+  .container-header-content {
+    max-width: 80%;
+  }
+
+  .first-block {
+    background-size: 340px;
+    background-position: top -125px right -190px;
+  }
+
+  .text-block {
+    padding-top: 1px;
+    padding-bottom: 10%;
+    padding-right: 5%;
+  }
+
+  .button-text {
+    display: none;
+  }
+
+  .button-icon {
+    margin-left: 5px
+  }
+
+  .button-icon2 {
+    margin-left: 3px;
+  }
+
+}
+
+@media (max-width: 435px) {
+
+
+  .text-first-block {
+    font-size: 16px;
+  }
+
+  .rating {
+    font-size: 23px;
+  }
+
+  .zvezda {
+    width: 25px;
+  }
+
+  .first-block {
+    background-size: 355px;
+    background-position: top -125px right -175px;
+  }
+
+  .first-h1 {
+    margin-top: 55px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 435px) {
+
+  .text-block {
+    display: block;
+  }
+
+  .container-footer {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 420px) {
+  .container-footer {
+    max-width: 90%;
+  }
+
+  .container-header-content {
+    max-width: 80%;
+  }
+
+  .first-block {
+    background-size: 342px;
+    background-position: top -125px right -175px;
+  }
+
+  .first-h1 {
+    margin-top: 55px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+
+  .input-search {
+    background: #ffffff;
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    height: 40px;
+    font-family: 'San Francisco Pro Display Thin';
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 35px;
+  }
+
+  .text-block {
+    padding-top: 1px;
+    padding-bottom: 10%;
+    padding-right: 8%;
+  }
+
+  .first-block {
+    background-size: 360px;
+    background-position: top -125px right -175px;
+  }
+
+  .header-second-block {
+    margin-top: 34px;
+  }
+
+  .all-blocks {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 390px) {
+
+  .text-block {
+    padding-top: 1px;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 9.5%;
+  }
+
+  .first-block {
+    background-size: 0px;
+    background-position: top -125px right -175px;
+  }
+
+  .first-h1 {
+    margin-top: 30px;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .rating {
+    font-size: 21px;
+  }
+
+  .zvezda {
+    width: 23px;
+  }
+
+  .first-h1 {
+    font-size: 20px;
+  }
+
+  .text-first-block {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 19px;
+  }
+
+  .price,
+  .category {
+    font-size: 17px;
+  }
+
+  .footer-class {
+    margin-left: 0px;
+  }
+
+  .footer-block {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-footer {
+    order: 0;
+    margin: 20px;
+  }
+
+  .footer-nav {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-link:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .nav-item1 {
+    margin-left: -16px;
+  }
+}
