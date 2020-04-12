@@ -123,6 +123,8 @@
   margin-right: 15px;
 }
 
+
+
 .container-header-content {
   margin: 0 auto;
   max-width: 1300px;
@@ -236,6 +238,7 @@ a:hover {
 }
 
 .pizza-plus {
+  outline: none;
   text-decoration: none;
   cursor: pointer;
   background: #FFFFFF;
@@ -416,6 +419,10 @@ footer {
 
 .nav-item:not(:last-child) {
   margin-right: 15px;
+}
+
+.nav-item2 {
+  margin: 0px;
 }
 
 .footer-class {
@@ -836,7 +843,7 @@ footer {
   .footer-class {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+
     justify-content: center;
   }
 
@@ -922,6 +929,12 @@ footer {
 
 @media (max-width:570px) {
 
+  .footer-class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .text-block {
     padding-top: 4%;
     padding-bottom: 9%;
@@ -945,7 +958,7 @@ footer {
   }
 
   .container-footer {
-    max-width: 490px;
+    max-width: 80%;
   }
 
   .container-header-content {
@@ -984,12 +997,22 @@ footer {
     padding-bottom: 10%;
     padding-right: 15%;
   }
+
+  .logo-footer {
+    width: 35%;
+    padding: 0;
+    margin: 0px;
+  }
+
+  .footer-nav {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 490px) {
 
   .container-footer {
-    max-width: 75%;
+    max-width: 80%;
   }
 
   .logo-footer {
@@ -1046,7 +1069,7 @@ footer {
 
 @media (max-width: 460px) {
   .container-footer {
-    max-width: 75%;
+    max-width: 80%;
   }
 
   .container-header-content {
@@ -1110,6 +1133,10 @@ footer {
     display: block;
   }
 
+  .container-header-content {
+    max-width: 80%;
+  }
+
   .container-footer {
     max-width: 80%;
   }
@@ -1117,7 +1144,7 @@ footer {
 
 @media (max-width: 420px) {
   .container-footer {
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .container-header-content {
@@ -1136,6 +1163,11 @@ footer {
 }
 
 @media (max-width: 415px) {
+
+  .bgcolor {
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+  }
 
   .input-search {
     background: #ffffff;
@@ -1193,6 +1225,15 @@ footer {
 
 @media (max-width: 320px) {
 
+
+  .container-footer {
+    max-width: 90%;
+  }
+
+  .container-header-content {
+    max-width: 90%;
+  }
+
   .rating {
     font-size: 21px;
   }
@@ -1215,7 +1256,7 @@ footer {
 
   .price,
   .category {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .footer-class {
@@ -1238,9 +1279,13 @@ footer {
     text-align: center;
   }
 
-  .footer-link:not(:last-child) {
+  .nav-item2 {
     margin-right: 0;
   }
+
+  /* .footer-link:not(:last-child) {
+    margin-right: 0;
+  } */
 
   .nav-item1 {
     margin-left: -16px;
