@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 44px;
+  padding-top: 35px;
 }
 
 .bgcolor {
@@ -18,10 +18,10 @@
   background-image: url(../img/home.svg);
   background-repeat: no-repeat;
   background-position: left 11px center;
-  border: 1px solid #d9d9d9;
+  border: 1px solid silver;
   border-radius: 2px;
   height: 40px;
-  font-family: 'San Francisco Pro Display Thin';
+  font-family: 'San Francisco Pro Display Regular';
   font-size: 16px;
   line-height: 24px;
   padding-left: 35px;
@@ -90,6 +90,10 @@
 }
 
 .logo {
+  /* width: 101px;
+  height: 37px; */
+  width: 130px;
+  height: 100px;
   cursor: pointer;
 }
 
@@ -186,7 +190,7 @@
   font-size: 21px;
   line-height: 28px;
   color: #302C34;
-  width: 560px;
+  width: 490px;
 }
 
 .second-span {
@@ -209,7 +213,7 @@
   width: 306px;
   height: 40px;
   background: #FFFFFF;
-  border: 1px solid #d3d9d9;;
+  border: 1px solid silver;
   box-sizing: border-box;
   border-radius: 2px;
   background-image: url(../img/search.svg);
@@ -222,7 +226,7 @@
 }
 
 :placeholder-shown:hover {
-  border: 1px solid silver;
+  border: 1px solid #808080;;
 }
 
 a:hover {
@@ -249,6 +253,36 @@ a:hover {
 }
 
 .pizza-plus:hover {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.52);
+  transform: scale(1.01);
+}
+
+.tanuki:hover {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.52);
+  transform: scale(1.01);
+}
+
+.food-band:hover {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.52);
+  transform: scale(1.01);
+}
+
+.pizza-ha:hover {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.52);
+  transform: scale(1.01);
+}
+
+.tochka:hover {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.52);
+  transform: scale(1.01);
+}
+
+.pizza-burger:hover {
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.52);
   transform: scale(1.01);
@@ -515,7 +549,11 @@ footer {
 }
 
 @media (max-width: 1095px) {
-
+  .logo {
+  width: 101px;
+  height: 37px;
+  }
+ 
   .first-block {
     background-size: 850px;
     background-position: top right -300px;
