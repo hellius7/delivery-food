@@ -18,7 +18,7 @@
   background-image: url(../img/home.svg);
   background-repeat: no-repeat;
   background-position: left 11px center;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   border-radius: 2px;
   height: 40px;
   font-family: 'San Francisco Pro Display Thin';
@@ -183,7 +183,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 28px;
   color: #302C34;
   width: 560px;
@@ -209,7 +209,7 @@
   width: 306px;
   height: 40px;
   background: #FFFFFF;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d3d9d9;;
   box-sizing: border-box;
   border-radius: 2px;
   background-image: url(../img/search.svg);
@@ -278,7 +278,7 @@ a:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 25px;
   line-height: 32px;
 }
 
@@ -289,7 +289,7 @@ a:hover {
 }
 
 .card-tag {
-  font-family: SF Pro Display;
+  font-family: 'San Francisco Pro Display light';
   font-weight: 200;
   font-size: 12px;
   line-height: 20px;
@@ -928,6 +928,9 @@ footer {
 }
 
 @media (max-width:570px) {
+  footer {
+    padding-bottom: 30px;
+  }
 
   .footer-class {
     display: flex;
@@ -998,10 +1001,14 @@ footer {
     padding-right: 15%;
   }
 
+  .nav-item1 {
+    margin-right: 9px;
+  }
+
   .logo-footer {
-    width: 35%;
+    width: 30%;
     padding: 0;
-    margin: 0px;
+    margin-left: 40px;
   }
 
   .footer-nav {
@@ -1010,6 +1017,15 @@ footer {
 }
 
 @media (max-width: 490px) {
+
+
+  .logo-footer {
+    margin-left: 40px;
+  }
+
+  .nav-item1 {
+    margin-right: 0px;
+  }
 
   .container-footer {
     max-width: 80%;
@@ -1068,6 +1084,10 @@ footer {
 
 
 @media (max-width: 460px) {
+
+  footer {
+    padding-bottom: 30px;
+  }
   .container-footer {
     max-width: 80%;
   }
@@ -1099,6 +1119,10 @@ footer {
     margin-left: 3px;
   }
 
+  .logo-footer {
+    margin-left: 1px;
+  }
+
 }
 
 @media (max-width: 435px) {
@@ -1125,6 +1149,9 @@ footer {
     margin-top: 55px;
     font-size: 20px;
   }
+  footer {
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 435px) {
@@ -1139,6 +1166,9 @@ footer {
 
   .container-footer {
     max-width: 80%;
+  }
+  footer {
+    padding-bottom: 30px;
   }
 }
 
@@ -1160,10 +1190,32 @@ footer {
     margin-top: 55px;
     font-size: 20px;
   }
+
+  footer {
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 415px) {
 
+  .header-second-block {
+    margin: 0px;
+  }
+
+  .first-block {
+    margin-top: 34px;
+  }
+
+  .header { 
+    padding-top: 30px;
+  }
+  .footer-nav {
+    margin-bottom: 25px;
+  }
+
+  footer {
+    padding-bottom: 30px;
+  }
   .container-footer {
     max-width: 90%;
   }
@@ -1173,12 +1225,11 @@ footer {
   }
 
   .bgcolor {
-    padding-bottom: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 
   .logo-footer {
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   .input-search {
@@ -1207,7 +1258,7 @@ footer {
   }
 
   .header-second-block {
-    margin-top: 34px;
+    margin-top: 29px;
   }
 
   .all-blocks {
@@ -1217,6 +1268,9 @@ footer {
 
 @media (max-width: 390px) {
 
+  .logo-footer {
+    margin-left: 8px;
+  }
   
   .nav-item2 {
     margin-right: 0;
