@@ -1,16 +1,27 @@
 * {
   box-sizing: border-box;
 }
-a {
-  text-decoration: none;
+
+.first-block{
+    display: none;
 }
+
+
+.input1 {
+    display: none;
+}
+
+
+.rbc {
+  vertical-align: middle;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 21px;
+  padding-top: 35px;
 }
-
 
 .bgcolor {
   background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
@@ -96,12 +107,20 @@ a {
   color: transparent;
 }
 
+.heft {
+  font-size: 18px;
+  font-family: 'San Francisco Pro Display Light';
+  color: #aab;
+  padding-top: 1.5px;
+}
+
 .logo {
   /* width: 101px;
   height: 37px; */
   width: 120px;
   height: 100px;
   cursor: pointer;
+  margin-right: px;
 }
 
 .buttons {
@@ -122,6 +141,27 @@ a {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
   border-radius: 2px;
   cursor: pointer;
+}
+
+.button-text-s {
+  margin-right: 4px;
+}
+
+.card-basket {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-family: 'San Francisco Pro Display Light';
+  font-size: 16px;
+  line-height: 24px;
+  background: #1890FF;
+  color: white;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 118px;
 }
 
 .sign2 {
@@ -146,6 +186,10 @@ a {
   max-width: 1300px;
 }
 
+.pizza-burgea {
+    text-decoration: none;
+}
+
 .button-icon {
   margin-right: 5px;
   vertical-align: middle;
@@ -156,6 +200,23 @@ a {
   vertical-align: middle;
 }
 
+.price-card {
+  margin: auto;
+  font-family: 'San Francisco Pro Display Light' ;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.button-text-s {
+  font-family: 'San Francisco Pro Display Light';
+  padding-top: 0.5px;
+  vertical-align: middle;
+}
+
 .button-text {
   font-family: 'San Francisco Pro Display Light';
   padding-top: 0.5px;
@@ -163,7 +224,7 @@ a {
 }
 
 .first-block {
-  margin-top: 30px;
+  margin-top: 50px;
   background: #fff1b8;
   box-shadow: 0px 7px 12px #DCDCDC;
   background: #fff1b8 url(../img/pizzapromo.png) no-repeat top -10px right -200px / 900px;
@@ -201,19 +262,18 @@ a {
 }
 
 .second-span {
+  padding-bottom: 2px;
+  margin-right: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 42px;
-  color: #000000;
+  font-size: 31px;
+  line-height: 42px;    
+  vertical-align: middle;
 }
 
 .header-second-block {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 56px;
+  display: none;
 }
 
 .input-search {
@@ -248,14 +308,20 @@ a:hover {
   margin-top: 45px;
 }
 
+/* .pizza-plus img{
+  display: block;
+  margin: 0 auto; 
+} */
+
 .pizza-plus {
+  /* text-align: center; */
   outline: none;
   text-decoration: none;
-  cursor: pointer;
   background: #FFFFFF;
   box-shadow: 0px 4px 12px #C0C0C0;
   border-radius: 7px;
   overflow: hidden;
+  /* flex-basis: 31.5%; */
   flex-basis: 31.5%;
 }
 
@@ -263,13 +329,13 @@ a:hover {
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.52);
   transform: scale(1.01);
-}
+} */
 
-.tanuki:hover {
+/* .tanuki:hover {
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.52);
   transform: scale(1.01);
-}
+} */
 
 .food-band:hover {
   -webkit-transform: scale(0.5);
@@ -283,6 +349,10 @@ a:hover {
   transform: scale(1.01);
 }
 
+.card-heading {
+    margin-top: 13px;
+}
+
 .tochka:hover {
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.52);
@@ -293,7 +363,7 @@ a:hover {
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.52);
   transform: scale(1.01);
-} */
+}
 
 .card-image {
   width: 100%;
@@ -301,6 +371,9 @@ a:hover {
   object-fit: cover;
 }
 
+.card_img {
+  text-align: center;
+}
 .card-text {
   padding-top: 10px;
   padding-bottom: 35px;
@@ -311,22 +384,70 @@ a:hover {
 .card-heading {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .card-title {
-  color: black;
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 25px;
   line-height: 32px;
+  color: black;
+  margin-right: 30px;
+}
+
+.rpc {
+  font-size: 10px;
 }
 
 .card-info {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  /* vertical-align: middle; */
+}
 
+.pizza_one {
+  margin-top: 30px;
+}
+
+.pizza_two {
+  margin-top: 30px;
+}
+
+.pizza-three {
+  margin-top: 30px;
+}
+
+.pizza_four {
+  margin-top: 30px;
+}
+
+.pizza_five {
+  margin-top: 30px;
+}
+
+.pizza_six {
+  margin-top: 30px;
+}
+
+.cardtexts__p {
+  width: 360px;
+  font-family: 'San Francisco Pro Display light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #8C8C8C;
+}
+
+.card-infos {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  /* vertical-align: middle; */
 }
 
 .card-tag {
@@ -344,16 +465,18 @@ a:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 20.5px;
   line-height: 32px;
-  color: orange;
-  margin-right: 26px;
+  color: #FFC107;
+  margin-right:28px;
 }
 
 .zvezda {
-  width: 23px;
+  width: 24px;
   padding-right: 5px;
 }
+
+
 
 .price {
   font-family: Roboto;
@@ -367,11 +490,12 @@ a:hover {
   font-size: 17px;
   line-height: 32px;
   color: #8C8C8C;
+  padding-bottom: 1.5px;
 }
 
 .krug {
-  padding-bottom: 3px;
-  margin-right: 10px;
+  padding-bottom: 2.5px;
+  margin-right: 8px;
   margin-left: 10px;
   vertical-align: middle;
 }
@@ -491,24 +615,28 @@ footer {
   margin-bottom: 3px;
 }
 
-.price {
+/* .price {
   margin-left: auto;
-}
+} */
 
-.rating {
+/* .rating {
   margin-right: 19px;
-}
+} */
 
 .card-image {
   height: 250px;
   object-fit: cover;
 }
 
-.card-info {
+/* .card-info {
   justify-content: space-between;
 }
-
+ */
 @media (max-width: 1366px) {
+
+  .cardtexts__p {
+    width: 270px;
+  }
 
   .rating {
     font-family: Roboto;
@@ -516,11 +644,11 @@ footer {
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
+    color: #FFC107;
     margin-right: 26px;
   }
   
   .zvezda {
-
     padding-right: 5px;
   }
 
@@ -529,20 +657,13 @@ footer {
   }
 
   .krug {
-    margin-bottom: -1px;
+    margin-bottom: 0px;
   }
 
   .container-footer {
     max-width: 1000px;
   }
-  
-  .card-titles {
-    text-decoration: none;
-  }
 
-  .pizza-burger {
-    text-decoration: none;
-}
   .container-header-content {
     max-width: 1000px;
   }
@@ -566,12 +687,12 @@ footer {
 
   .price,
   .category {
-    font-size: 14px;
+    font-size: 15px;
   }
 
-  .price {
+  /* .price {
     margin-left: auto;
-  }
+  } */
 
   .rating {
     margin-right: 19px;
@@ -582,9 +703,9 @@ footer {
     object-fit: cover;
   }
 
-  .card-info {
+  /* .card-info {
     justify-content: space-between;
-  }
+  } */
 
   .text-block {
     padding-top: 4%;
@@ -732,7 +853,7 @@ footer {
   }
 
   .krug {
-    margin-bottom: -1px;
+    margin-bottom: 1px;
   }
 
   .footer-nav {
@@ -872,11 +993,11 @@ footer {
   }
 
   .rating {
-    font-size: 21px;
+    font-size: 25px;
   }
 
   .zvezda {
-    width: 23px;
+    width: 27px;
   }
 
   footer {
@@ -933,7 +1054,7 @@ footer {
   }
 
   .card-title {
-    font-size: 24px;
+    font-size: 19.5px;
   }
 
   .price,
@@ -1091,7 +1212,7 @@ footer {
   }
 
   .logo-footer {
-    width: 24%;
+    width: 30%;
     padding: 0;
     margin-left: 40px;
   }
@@ -1105,11 +1226,8 @@ footer {
 
 
   .logo-footer {
-    width: 24%;
-    padding: 0;
     margin-left: 40px;
   }
-
 
   .nav-item1 {
     margin-right: 0px;
@@ -1117,6 +1235,12 @@ footer {
 
   .container-footer {
     max-width: 80%;
+  }
+
+  .logo-footer {
+    width: 35%;
+    padding: 0;
+    margin: 0px;
   }
 
   .container-header-content {
@@ -1202,11 +1326,8 @@ footer {
   }
 
   .logo-footer {
-    width: 26%;
-    padding: 0;
-    margin-left: 40px;
+    margin-left: 1px;
   }
-
 
 }
 
@@ -1218,11 +1339,11 @@ footer {
   }
 
   .rating {
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .zvezda {
-    width: 23px;
+    width: 25px;
   }
 
   .first-block {
@@ -1284,11 +1405,9 @@ footer {
 @media (max-width: 415px) {
 
   .logo-footer {
-    width: 25%;
-    padding: 0;
-    margin-left: 40px;
+    /* padding-left: 13px; */
+    margin-left: 8px;
   }
-
 
   .header-second-block {
     margin: 0px;
@@ -1321,11 +1440,8 @@ footer {
   }
 
   .logo-footer {
-    width: 25%;
-    padding: 0;
-    margin-left: 40px;
+    margin-top: 5px;
   }
-
 
   .input-search {
     background: #ffffff;
@@ -1364,11 +1480,8 @@ footer {
 @media (max-width: 390px) {
 
   .logo-footer {
-    width: 26%;
-    padding: 0;
-    margin-left: 40px;
+    margin-left: 8px;
   }
-
   
   .nav-item2 {
     margin-right: 0;
@@ -1464,8 +1577,6 @@ footer {
   }
 }
 
-
-
 @media (max-width: 320px) {
 
   .social-tabs {
@@ -1475,7 +1586,6 @@ footer {
 .social-tabsvk {
     order: 3;
   }
-  
 
   .container-footer {
     max-width: 90%;
@@ -1524,11 +1634,9 @@ footer {
   }
 
   .logo-footer {
-    width: 29%;
-    padding: 0;
-    margin-left: 40px;
+    order:0;
+    margin-bottom: px;
   }
-
 
   .footer-nav {
     order: 0;
