@@ -508,6 +508,7 @@ footer {
   justify-content: space-between;
 }
 
+
 @media (max-width: 1366px) {
 
   .rating {
@@ -566,7 +567,7 @@ footer {
 
   .price,
   .category {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .price {
@@ -596,6 +597,15 @@ footer {
 }
 
 @media (max-width: 1095px) {
+
+.header-second-block {
+
+}
+
+  .header {
+    padding-top: 35px;
+  }
+
   .logo {
   width: 101px;
   height: 37px;
@@ -708,6 +718,10 @@ footer {
 }
 
 @media (max-width: 860px) {
+
+  .header {
+    padding-top: 35px;
+  }
 
   .container-footer {
     max-width: 700px;
@@ -1013,6 +1027,15 @@ footer {
 }
 
 @media (max-width:570px) {
+
+  .input1 {
+    padding-right: 10px;
+  }
+
+  .header-second-block {
+    margin-top:  32px;
+  }
+  
   footer {
     padding-bottom: 30px;
   }
@@ -1093,7 +1116,7 @@ footer {
   .logo-footer {
     width: 24%;
     padding: 0;
-    margin-left: 40px;
+    margin-left: 31px;
   }
 
   .footer-nav {
@@ -1358,6 +1381,12 @@ footer {
 
   .all-blocks {
     margin-top: 35px;
+  }
+
+  .logo-footer {
+    width: 26%;
+    padding: 0;
+    margin-left: 25px;
   }
 }
 
