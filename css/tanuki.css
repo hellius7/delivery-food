@@ -7,6 +7,37 @@
 }
 
 
+.cardtexts__p__var11 {
+  width: 360px;
+  font-family: 'San Francisco Pro Display light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #8C8C8C;
+}
+
+
+.cardtexts__p__var22 {
+  width: 360px;
+  font-family: 'San Francisco Pro Display light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #8C8C8C;
+}
+
+.cardtexts__p__var22 {
+  display: flex;
+  width: 100%;
+}
+
+.cardtexts__p__var11 {
+  display: none;
+  width: 100%;
+}
+
 .input1 {
     display: none;
 }
@@ -787,7 +818,7 @@ footer {
 @media (max-width: 1095px) {
 
   .card-title {
-    font-size: 23px;
+    font-size: 21px;
   }
   
   .card-info {
@@ -1233,7 +1264,7 @@ footer {
   }
 
   .card-title {
-    font-size: 28.8px;
+    /* font-size: 28.8px; */
     margin-right: 40px;
   }
 
@@ -1392,16 +1423,31 @@ footer {
 }
 
 @media (max-width:570px) {
-  .card-title {
+  /* .card-title {
     font-size: 170%;
-  }
+  } */
 
   .cardtexts__p {
     width: 100%;
   }
 
   .cardtexts__p__var2 {
-    width: 451px;
+    width: 100%;
+    display: flex;
+  }
+
+  .cardtexts__p__var11 {
+    width: 100%;
+    display: none;
+  }
+
+  .cardtexts__p__var22 {
+    width: 100%;
+    display: flex;
+  }
+
+  .cardtexts__p__var3 {
+    width: 100%;
     display: flex;
   }
 
@@ -1493,7 +1539,7 @@ footer {
   .logo-footer {
     width: 30%;
     padding: 0;
-    margin-left: 40px;
+    margin-left: 46px;
   }
 
   .footer-nav {
@@ -1672,9 +1718,9 @@ footer {
     margin-left: 3px;
   }
 
-  .logo-footer {
+  /* .logo-footer {
     margin-left: 1px;
-  }
+  } */
 
   .card-info {
     padding-top: 20px;
@@ -1793,10 +1839,10 @@ footer {
     font-size: 21px;
   }
 
-  .logo-footer {
+  /* .logo-footer {
     /* padding-left: 13px; */
-    margin-right: -2px;
-  }
+    /* margin-right: -2px;
+  } */ 
 
   .header-second-block {
     display: none;
@@ -1876,11 +1922,11 @@ footer {
 }
 
 @media (max-width: 390px) {
-
+/* 
   .logo-footer {
     margin-left: 8px;
   }
-  
+   */
   .nav-item2 {
     margin-right: 0;
   }

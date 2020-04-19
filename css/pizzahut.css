@@ -1401,7 +1401,12 @@ footer {
   }
 
   .cardtexts__p__var2 {
-    width: 451px;
+    width: 100%;
+    display: flex;
+  }
+
+  .cardtexts__p__var3 {
+    width: 100%;
     display: flex;
   }
 

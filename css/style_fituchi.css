@@ -787,7 +787,7 @@ footer {
 @media (max-width: 1095px) {
 
   .card-title {
-    font-size: 23px;
+    font-size: 22px;
   }
   
   .card-info {
@@ -1233,7 +1233,7 @@ footer {
   }
 
   .card-title {
-    font-size: 28.8px;
+    /* font-size: 28.8px; */
     margin-right: 40px;
   }
 
@@ -1392,16 +1392,21 @@ footer {
 }
 
 @media (max-width:570px) {
-  .card-title {
+  /* .card-title {
     font-size: 170%;
-  }
+  } */
 
   .cardtexts__p {
     width: 100%;
   }
 
   .cardtexts__p__var2 {
-    width: 451px;
+    width: 100%;
+    display: flex;
+  }
+
+  .cardtexts__p__var3 {
+    width: 100%;
     display: flex;
   }
 
