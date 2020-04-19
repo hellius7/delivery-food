@@ -1237,9 +1237,9 @@ footer {
     margin-right: 40px;
   }
 
-  .heft {
+  /* .heft {
     font-size: 21px;
-  }
+  } */
 
   .card-info {
     flex-wrap: wrap;
@@ -1676,10 +1676,10 @@ footer {
   .button-icon2 {
     margin-left: 3px;
   }
-
-  .logo-footer {
+  /* .logo-footer {
     margin-left: 1px;
-  }
+  } */
+
 
   .card-info {
     padding-top: 20px;
@@ -1800,7 +1800,7 @@ footer {
 
   .logo-footer {
     /* padding-left: 13px; */
-    margin-right: -2px;
+    /* margin-right: -2px; */
   }
 
   .header-second-block {
@@ -1882,9 +1882,9 @@ footer {
 
 @media (max-width: 390px) {
 
-  .logo-footer {
+  /* .logo-footer {
     margin-left: 8px;
-  }
+  } */
   
   .nav-item2 {
     margin-right: 0;

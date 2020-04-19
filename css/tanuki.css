@@ -1267,10 +1267,10 @@ footer {
     /* font-size: 28.8px; */
     margin-right: 40px;
   }
-
+/* 
   .heft {
     font-size: 21px;
-  }
+  } */
 
   .card-info {
     flex-wrap: wrap;
@@ -1922,6 +1922,7 @@ footer {
 }
 
 @media (max-width: 390px) {
+
 /* 
   .logo-footer {
     margin-left: 8px;
