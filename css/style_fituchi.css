@@ -150,6 +150,7 @@
 .pc {
   display: flex;
   flex-direction: row;
+  padding:5px;
 }
 
 .card-basket {
@@ -179,7 +180,10 @@
   margin-right: 15px;
 }
 
-
+.sr {
+  display: flex;
+  align-items: center;
+}
 
 .container-header-content {
   margin: 0 auto;
@@ -310,7 +314,7 @@ a:hover {
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 45px;
+  margin-top: 32px;
 }
 
 .pizza-plus {
@@ -494,7 +498,7 @@ abbr {
 }
 
 .krug {
-  padding-bottom: 2.5px;
+  padding-bottom: 2px;
   margin-right: 8px;
   margin-left: 10px;
   vertical-align: middle;
@@ -1242,11 +1246,11 @@ footer {
   }
 
   .zvezda {
-    width: 21px;
+    width: 23px;
   }
 
   .rating {
-    font-size: 18px;
+    font-size: 19px;
     /* margin-right: 290px; */
   }
 
@@ -1505,10 +1509,21 @@ footer {
   }
 }
 
+@media (max-width: 501px) {
+
+  .second-span {
+    margin-right: 21px;
+  }
+
+  .rating {
+    margin-right: 18px;
+  }
+}
+
 @media (max-width: 490px) {
 
   .second-span {
-    margin-right: 0px;
+    margin-right: 18px;
   }
 
   .rating {
@@ -1527,6 +1542,7 @@ footer {
   .pc {
     display: flex;
     flex-direction: row;
+    padding: 0px;
   }
 
   .krug {
@@ -1661,11 +1677,11 @@ footer {
   }
 
   .rating {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .zvezda {
-    width: 25px;
+    width: 18;
   }
 
   .first-block {
@@ -1863,6 +1879,19 @@ footer {
   }
 }
 
+@media (max-width: 380px) {
+
+  .price-card {
+    padding-left: 90px; 
+  }
+}
+
+@media (max-width: 380px) {
+
+  .price-card {
+    padding-left: 80px; 
+  }
+}
 
 @media (max-width: 360px) {
   .container-footer {
@@ -1873,6 +1902,14 @@ footer {
     max-width: 90%;
   }
 
+}
+
+
+@media (max-width: 380px) {
+
+  .price-card {
+    padding-left: 70px; 
+  }
 }
 
 @media (max-width: 347px) {
@@ -1909,6 +1946,11 @@ footer {
 }
 
 @media (max-width: 320px) {
+
+.price-card {
+    padding-left: 55px; 
+  }
+}
 
   .social-tabs {
     order: 3;
