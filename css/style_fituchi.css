@@ -28,14 +28,11 @@
 }
 
 .search-input {
-  background: #ffffff;
-  background-image: url(../img/home.svg);
-  background-repeat: no-repeat;
-  background-position: left 11px center;
+  background: #ffffff url(../img/home.svg) no-repeat left 11px center;
   border: 1px solid silver;
   border-radius: 2px;
   height: 40px;
-  font-family: 'San Francisco Pro Display Regular';
+  font-family: 'San Francisco Pro Display Regular', sans-serif;
   font-size: 16px;
   line-height: 24px;
   padding-left: 35px;
@@ -82,45 +79,35 @@
 }
 
 ::-webkit-input-placeholder {
-  /* Chrome */
   color: grey;
-  font-family: 'San Francisco Pro Display Light';
+  font-family: 'San Francisco Pro Display Light', sans-serif;
 }
 
 :-ms-input-placeholder {
-  /* IE 10+ */
   color: grey;
-  color: transparent;
 }
 
 ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: grey;
   opacity: 1;
   color: transparent;
 }
 
 :-moz-placeholder {
-  /* Firefox 4 - 18 */
   color: grey;
   opacity: 1;
-  color: transparent;
 }
 
 .heft {
   font-size: 18px;
-  font-family: 'San Francisco Pro Display Light';
+  font-family: 'San Francisco Pro Display Light', sans-serif;
   color: #aab;
-  padding-top: 1.5px;
+  padding-top: 2px;
 }
 
 .logo {
-  /* width: 101px;
-  height: 37px; */
   width: 120px;
   height: 100px;
   cursor: pointer;
-  margin-right: px;
 }
 
 .buttons {
@@ -132,13 +119,13 @@
   display: flex;
   align-items: center;
   padding: 8px 16px;
-  font-family: 'San Francisco Pro Display Regular';
+  font-family: 'San Francisco Pro Display Regular', sans-serif;
   font-size: 16px;
   line-height: 24px;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   box-sizing: border-box;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
   border-radius: 2px;
   cursor: pointer;
 }
@@ -157,14 +144,14 @@
   display: flex;
   align-items: center;
   padding: 8px 16px;
-  font-family: 'San Francisco Pro Display Light';
+  font-family: 'San Francisco Pro Display Light', sans-serif;
   font-size: 16px;
   line-height: 24px;
   background: #1890FF;
   color: white;
   border: 1px solid #D9D9D9;
   box-sizing: border-box;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
   border-radius: 2px;
   cursor: pointer;
   margin-right: 118px;
@@ -172,7 +159,7 @@
 
 .sign2 {
   border: 1px solid #1890FF;
-  font-family: 'San Francisco Pro Display Regular';
+  font-family: 'San Francisco Pro Display Regular', sans-serif;
   background: #1890FF;
   color: white;
   border-radius: 2px;
@@ -211,31 +198,29 @@
 
 .price-card {
   margin: auto;
-  font-family: 'San Francisco Pro Display Light' ;
+  font-family: 'San Francisco Pro Display Light', sans-serif;
   font-style: normal;
   font-weight: normal;
-
   font-size: 20px;
   line-height: 32px;
   color: #000000;
 }
 
 .button-text-s {
-  font-family: 'San Francisco Pro Display Light';
-  padding-top: 0.5px;
+  font-family: 'San Francisco Pro Display Light', sans-serif;
+  padding-top: 1px;
   vertical-align: middle;
 }
 
 .button-text {
-  font-family: 'San Francisco Pro Display Light';
-  padding-top: 0.5px;
+  font-family: 'San Francisco Pro Display Light', sans-serif;
+  padding-top: 1px;
   vertical-align: middle;
 }
 
 .first-block {
   margin-top: 50px;
-  background: #fff1b8;
-  box-shadow: 0px 7px 12px #DCDCDC;
+  box-shadow: 0 7px 12px #DCDCDC;
   background: #fff1b8 url(../img/pizzapromo.png) no-repeat top -10px right -200px / 900px;
 }
 
@@ -252,7 +237,7 @@
 }
 
 .first-h1 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 39px;
@@ -261,7 +246,7 @@
 }
 
 .text-first-block {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -273,7 +258,7 @@
 .second-span {
   padding-bottom: 2px;
   margin-right: 30px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 31px;
@@ -288,15 +273,12 @@
 .input-search {
   width: 306px;
   height: 40px;
-  background: #FFFFFF;
   border: 1px solid silver;
   box-sizing: border-box;
   border-radius: 2px;
-  background-image: url(../img/search.svg);
-  background-repeat: no-repeat;
-  background-position: left 10px center;
+  background: #FFFFFF url(../img/search.svg) no-repeat left 10px center;
   padding-left: 32px;
-  font-family: 'San Francisco Pro Display Regular';
+  font-family: 'San Francisco Pro Display Regular', sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
@@ -321,7 +303,7 @@ a:hover {
   outline: none;
   text-decoration: none;
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px #C0C0C0;
+  box-shadow: 0 4px 12px #d4d4d4;
   border-radius: 7px;
   overflow: hidden;
   flex-basis: 31.5%;
@@ -369,10 +351,7 @@ abbr {
   text-align: center;
 }
 .card-text {
-  padding-top: 10px;
-  padding-bottom: 35px;
-  padding-left: 21px;
-  padding-right: 24px;
+  padding: 10px 24px 35px 21px;
 }
 
 .card-heading {
@@ -381,7 +360,7 @@ abbr {
 }
 
 .card-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -427,7 +406,7 @@ abbr {
 
 .cardtexts__p__var1 {
   width: 360px;
-  font-family: 'San Francisco Pro Display light';
+  font-family: 'San Francisco Pro Display light', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -437,7 +416,7 @@ abbr {
 
 .cardtexts__p__var2 {
   width: 360px;
-  font-family: 'San Francisco Pro Display light';
+  font-family: 'San Francisco Pro Display light', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -450,12 +429,11 @@ abbr {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 0px;
-  /* vertical-align: middle; */
+  margin-top: 0;
 }
 
 .card-tag {
-  font-family: 'San Francisco Pro Display light';
+  font-family: 'San Francisco Pro Display light', sans-serif;
   font-weight: 200;
   font-size: 12px;
   line-height: 20px;
@@ -466,10 +444,10 @@ abbr {
 }
 
 .rating {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20.5px;
+  font-size: 21px;
   line-height: 32px;
   color: #FFC107;
   margin-right:28px;
@@ -483,18 +461,18 @@ abbr {
 
 
 .price {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 17px;
   line-height: 32px;
   color: #8C8C8C;
 }
 
 .category {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 17px;
   line-height: 32px;
   color: #8C8C8C;
-  padding-bottom: 1.5px;
+  padding-bottom: 2px;
 }
 
 .krug {
@@ -508,7 +486,7 @@ abbr {
   flex-basis: 31.5%;
   cursor: pointer;
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px #C0C0C0;
+  box-shadow: 0 4px 12px #C0C0C0;
   border-radius: 7px;
   overflow: hidden;
 }
@@ -517,7 +495,7 @@ abbr {
   flex-basis: 31.5%;
   cursor: pointer;
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px #C0C0C0;
+  box-shadow: 0 4px 12px #C0C0C0;
   border-radius: 7px;
   overflow: hidden;
 }
@@ -526,7 +504,7 @@ abbr {
   flex-basis: 31.5%;
   cursor: pointer;
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px #C0C0C0;
+  box-shadow: 0 4px 12px #C0C0C0;
   border-radius: 7px;
   overflow: hidden;
   margin-top: 30px;
@@ -536,7 +514,7 @@ abbr {
   flex-basis: 31.5%;
   cursor: pointer;
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px #C0C0C0;
+  box-shadow: 0 4px 12px #C0C0C0;
   border-radius: 7px;
   overflow: hidden;
   margin-top: 30px;
@@ -546,7 +524,7 @@ abbr {
   flex-basis: 31.5%;
   cursor: pointer;
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px #C0C0C0;
+  box-shadow: 0 4px 12px #C0C0C0;
   border-radius: 7px;
   overflow: hidden;
   margin-top: 30px;
@@ -568,7 +546,7 @@ footer {
 
 .nav-item {
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -579,7 +557,7 @@ footer {
 
 .nav-item1 {
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -593,7 +571,7 @@ footer {
 }
 
 .nav-item2 {
-  margin: 0px;
+  margin: 0;
 }
 
 .footer-class {
@@ -648,22 +626,18 @@ footer {
 
 .cardtexts__p {
   width: 360px;
-  font-family: 'San Francisco Pro Display light';
+  font-family: 'San Francisco Pro Display light', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
   line-height: 21px;
   color: #8C8C8C;
-
 }
 
 .cardtexts__p__var1 {
   display: none;
 }
-/* .card-info {
-  justify-content: space-between;
-}
- */
+
 @media (max-width: 1366px) {
 
   .title-var2{
@@ -680,7 +654,7 @@ footer {
 
   .two_h {
     width: 199px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .card-ffooter {
@@ -710,10 +684,10 @@ footer {
   }
 
   .rating {
-      font-family: Roboto;
+      font-family: Roboto, sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 19.5px;
+      font-size: 20px;
       line-height: 32px;
       color: #FFC107;
       margin-right:28px;
@@ -729,7 +703,7 @@ footer {
   }
 
   .krug {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .container-footer {
@@ -739,10 +713,6 @@ footer {
   .container-header-content {
     max-width: 1000px;
   }
-
-  /* .all-blocks {
-    justify-content: space-between;
-  } */
 
   .first-block {
     background-size: 970px;
@@ -762,25 +732,14 @@ footer {
     font-size: 15px;
   }
 
-  .price {
-    margin: n
-  }
-
   .card-image {
     height: 250px;
     object-fit: cover;
   }
-/* 
-  .card-info {
-    justify-content: space-between;
-  } */
 
   .text-block {
-    padding-top: 4%;
-    padding-bottom: 9%;
-    padding-right: 54%;
     display: block;
-    padding-left: 5%;
+    padding: 4% 54% 9% 5%;
   }
 }
 
@@ -813,10 +772,7 @@ footer {
   }
 
   .text-block {
-    padding-top: 4%;
-    padding-bottom: 9%;
-    padding-right: 53%;
-    padding-left: 6%;
+    padding: 4% 53% 9% 6%;
     display: block;
   }
 
@@ -949,7 +905,7 @@ footer {
   }
 
   .logo-footer {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .text-block {
@@ -1012,7 +968,7 @@ footer {
   }
 
   .krug {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .footer-nav {
@@ -1177,7 +1133,7 @@ footer {
   }
 
   footer {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .text-block {
@@ -1289,14 +1245,11 @@ footer {
   }
 
   .input-search {
-    background: #ffffff;
-    background-image: url(../img/search.svg);
-    background-repeat: no-repeat;
-    background-position: left 11px center;
+    background: #ffffff url(../img/search.svg) no-repeat left 11px center;
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     height: 40px;
-    font-family: 'San Francisco Pro Display Thin';
+    font-family: 'San Francisco Pro Display Thin', sans-serif;
     font-size: 16px;
     line-height: 24px;
     padding-left: 35px;
@@ -1368,10 +1321,6 @@ footer {
     flex: 1;
   }
 
-  .text-block {
-    padding-left: 3;
-  }
-
   .first-block {
     background-size: 400px;
     background-position: top -100px right -190px;
@@ -1411,7 +1360,7 @@ footer {
   }
 
   .card-basket {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .price-card {
@@ -1464,7 +1413,7 @@ footer {
 
   .second-span {
     font-size: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .first-block {
@@ -1510,7 +1459,7 @@ footer {
   }
 
   .second-span {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 
@@ -1532,7 +1481,7 @@ footer {
   }
 
   .rating {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .price-card {
@@ -1547,21 +1496,15 @@ footer {
   .pc {
     display: flex;
     flex-direction: row;
-    padding: 0px;
+    padding: 0;
   }
-
-  .krug {
-    padding-bottom: px;
-  }
-
-
 
   .logo-footer {
     margin-left: 35px;
   }
 
   .nav-item1 {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .container-footer {
@@ -1635,10 +1578,6 @@ footer {
 
 @media (max-width: 460px) {
 
-  .krug {
-    padding-top: px;
-  }
-
   .price-card {
     padding-left: 110px;
   }
@@ -1709,10 +1648,6 @@ footer {
 
   .rating {
     font-size: 20px;
-  }
-
-  .zvezda {
-    width: 18;
   }
 
   .first-block {
@@ -1838,14 +1773,11 @@ footer {
   }
 
   .input-search {
-    background: #ffffff;
-    background-image: url(../img/search.svg);
-    background-repeat: no-repeat;
-    background-position: left 11px center;
+    background: #ffffff url(../img/search.svg) no-repeat left 11px center;
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     height: 40px;
-    font-family: 'San Francisco Pro Display Thin';
+    font-family: 'San Francisco Pro Display Thin', sans-serif;
     font-size: 16px;
     line-height: 24px;
     padding-left: 35px;
@@ -1918,14 +1850,11 @@ footer {
   }
 
   .text-block {
-    padding-top: 1px;
-    padding-bottom: 10%;
-    padding-right: 5%;
-    padding-left: 9.5%;
+    padding: 1px 5% 10% 9.5%;
   }
 
   .first-block {
-    background-size: 0px;
+    background-size: 0;
     background-position: top -125px right -175px;
   }
 
@@ -2064,7 +1993,6 @@ footer {
 
   .logo-footer {
     order:0;
-    margin-bottom: px;
   }
 
   .footer-nav {
