@@ -1074,6 +1074,12 @@ footer {
     }
 }
 
+@media (max-width: 510px) {
+    .logo {
+        width: 101px;
+        vertical-align: -80px;
+    }
+}
 @media (max-width: 490px) {
 
     .logo-footer {
